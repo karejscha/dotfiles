@@ -45,9 +45,9 @@ set background=dark
 colorscheme gruvbox
 
 " tabs
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 
 " line numbers
 set number
@@ -55,4 +55,7 @@ set number
 " autostart NERDTree & move cursor to main window
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
+
+set scrolloff=10
+set paste
 
